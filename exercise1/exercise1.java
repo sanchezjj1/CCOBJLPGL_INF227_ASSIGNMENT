@@ -7,7 +7,7 @@ public class Study {
         Study myReview = new Study();
      
         // precondition
-	assert iwillReview == true: "Panis Pasado!";  
+    assert iwillReview == true: "Panis Pasado!";  
    
     myReview.iwillReview();
     System.out.println(iwillReview);
