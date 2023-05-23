@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="880.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Fastfoodcontroller">
+   <children>
+      <ImageView id="img1" fitHeight="150.0" fitWidth="200.0" layoutX="57.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/mcdonalds.png" />
+         </image>
+      </ImageView>
+      <Button id="btn1" fx:id="btn1" layoutX="73.0" layoutY="224.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="32.0" prefWidth="118.0" text="Mcdonald's">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <ImageView id="img3" fitHeight="150.0" fitWidth="200.0" layoutX="597.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/jollibee.png" />
+         </image>
+      </ImageView>
+      <Button id="btn2" fx:id="btn2" layoutX="358.0" layoutY="225.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="31.0" prefWidth="118.0" text="KFC">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <ImageView id="img2" fitHeight="150.0" fitWidth="200.0" layoutX="342.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/KFC.png" />
+         </image>
+      </ImageView>
+      <Button id="btn3" fx:id="btn3" layoutX="648.0" layoutY="228.0" mnemonicParsing="false" onAction="#showInfo" text="Jollibee">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="142.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="img5" fitHeight="150.0" fitWidth="200.0" layoutX="476.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Popeyes.png" />
+         </image>
+      </ImageView>
+      <ImageView id="img4" fitHeight="150.0" fitWidth="200.0" layoutX="158.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/wendys.png" />
+         </image>
+      </ImageView>
+      <Button id="btn4" fx:id="btn4" layoutX="199.0" layoutY="456.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="32.0" prefWidth="118.0" text="Wendy's">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button id="btn5" fx:id="btn5" layoutX="559.0" layoutY="449.0" mnemonicParsing="false" onAction="#showInfo" text="Popeyes">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
